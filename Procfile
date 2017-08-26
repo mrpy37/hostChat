@@ -1,1 +1,1 @@
-web: funicorn hostChat:app --log-file=-
+web: gunicorn hostChat:app --log-file=-
