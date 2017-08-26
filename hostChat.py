@@ -13,8 +13,8 @@ import re
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('wrKYQpqd7B10b0xtYDt6b69Hiahny6iZsboxegb5K5MBc2L5XrPLciO8vZQwszf5fDwK1XKzMfXuZUWe/p9IV61JNnvA8wQR8XAHLqP+ZSbM5eRx6a6/1OToPb4GJ05KYQoCq/UcI8A4JXxlqBv1fQdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('701d9a7b33c64c25b960625da9bfc064')
+line_bot_api = LineBotApi('zpwtTfmZBccLdoI9BZwb7u0nPUophZxItFxdV0g175ra5zrVZYSbg8pRNOsU4Uwy5/LDtcCpWc3JB31dIH5ZkWwz4cjr3cc1mhvjTwEmwdQPAjmrf5jvEboy9ihOFxRqgXoXWjg/nVF/HDF89u66WwdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('818cd8fec3e88aeb3b7be1d2e9b4fd05')
 
 # get channel_secret and channel_access_token from your environment variable
 #channel_access_token = os.getenv('LINE_CHANNEL_ACCESS_TOKEN', None)
